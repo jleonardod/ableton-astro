@@ -1,40 +1,19 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
 ---
 
 <Layout title="Ableton">
-	<header class="w-full px-10 py-[1.2rem] flex justify-between border-b-[1.1px] border-gray-200 bg-white">
-		<div class="h-[1.75rem] flex">
-			<div class="h-full w-[1.75rem] border-l-4 border-black flex">
-				<span class="w-1 bg-black h-full ml-1" />
-				<span class="w-1 bg-black h-full ml-1" />
-				<span class="w-1 bg-black h-full ml-1" />
-			</div>
-			<div class="h-full w-[1.75rem] ml-1 border-t-4 border-black flex-col flex">
-				<span class="h-1 bg-black w-full mt-1" />
-				<span class="h-1 bg-black w-full mt-1" />
-				<span class="h-1 bg-black w-full mt-1" />
-			</div>
-		</div>
+	<Header />
+	<div class="w-full bg-white px-8 py-6">
 		<nav>
-			<ul class="flex [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:text-lg pl-6 py-0">
-				<li><a href="">Live</a></li>
-				<li><a href="">Push</a></li>
-				<li><a href="">Note</a></li>
-				<li><a href="">Link</a></li>
-				<li><a href="">Shop</a></li>
-				<li><a href="">Packs</a></li>
-				<li><a href="">Help</a></li>
-				<li><a href="" class="text-[#ff764d]">More +</a></li>
+			<ul class="flex [&>li>a]:text-sm [&>li>a]:px-3 [&>li>a]:font-semibold">
+				<li><a href="#" class="text-[#ff764d]">About</a></li>
+				<li><a href="#">Jobs</a></li>
+				<li><a href="#">Apprenticeships</a></li>
 			</ul>
 		</nav>
-		<nav class="flex flex-grow justify-end basis-0">
-			<ul class="flex [&>li>a]:font-bold [&>li>a]:inline-block [&>li>a]:px-4">
-				<li><a href="" class="text-[#0000ff]">Try Live for free</a></li>
-				<li><a href="">Log in or register</a></li>
-			</ul>
-		</nav>
-	</header>
+	</div>
 	<main>
 		
 	</main>
