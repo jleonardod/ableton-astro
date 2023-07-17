@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
+import { Icon } from 'astro-icon'
 ---
 
 <Layout title="Ableton">
@@ -14,11 +15,51 @@ import Header from '../components/Header.astro';
 			</ul>
 		</nav>
 	</div>
-	<main class="w-screen h-[79vh] overflow-y-hidden">
+	<main class="w-screen h-[79vh]">
 		<section class="w-full h-full">
 			<div class="w-full flex px-28 h-full">
 				<div class="w-full bg-[url('header.avif')] bg-cover h-full text-center py-56">
 					<h1 class="text-[#ff764d] font-semibold text-9xl">Ableton</h1>
+				</div>
+			</div>
+		</section>
+		<section class="w-full bg-white">
+			<div class="w-full px-[19.5rem] py-24">
+				<div class="flex flex-col gap-y-7">
+					<h1 class=" font-medium text-3xl tracking-tight leading-normal">We make <span class="text-[#0000ff]">Live</span>, <span class="text-[#0000ff]">Push</span> and <span class="text-[#0000ff]">Link</span> — unique software and hardware for music creation and performance. With these products, our community of users creates amazing things.</h1>
+					<p class=" text-xl font-normal leading-relaxed">Ableton was founded in 1999 and released the first version of Live in 2001. Our products are used by a community of dedicated musicians, sound designers, and artists from across the world.</p>
+				</div>
+			</div>
+		</section>
+		<section class="w-full bg-white flex h-[119vh]">
+			<div class=" w-[70%] pt-28">
+				<div class="bg-[url(https://ableton-production.imgix.net/about/photo-1.jpg?fit=crop&h=569&ixjsv=1.1.3&w=569)] w-full h-[41.6667vw] relative ml-32" />
+			</div>
+			<div class=" w-full bg-[#fbffa7] items-center flex justify-center">
+				<div class="w-[33.3333vw] h-[25vw] bg-[url('https://ableton-production.imgix.net/about/photo-2.jpg?fit=crop&h=342&ixjsv=1.1.3&w=455')]" />
+			</div>
+		</section>
+		<section class="w-full bg-white">
+			<div class="w-full px-[19.5rem] py-24">
+				<div class="flex flex-col gap-y-7">
+					<h1 class=" font-medium text-3xl tracking-tight leading-normal">Making music isn’t easy. It takes time, effort, and learning. But when you’re in the flow, it’s incredibly rewarding.</h1>
+					<p class=" text-xl font-normal leading-relaxed">We feel the same way about making Ableton products. The driving force behind Ableton is our passion for what we make, and the people we make it for.</p>
+				</div>
+			</div>
+		</section>
+		<section class="w-full bg-white">
+			<div class="pb-24 flex flex-col gap-y-2">
+				<div class="w-full flex justify-center">
+					<a href="#">
+						<div class="bg-[url('poster-juanpe.avif')] w-[100vh] h-96 flex justify-center items-center">
+							<button class="bg-[#0000ff] rounded-full w-24 h-24 p-4">
+									<Icon name="mdi:play" class="text-white" />
+							</button>
+						</div>
+					</a>
+				</div>
+				<div class="w-full px-[22.5rem]">
+					<p class="font-semibold text-xs">Why Ableton - Juanpe Bolivar</p>
 				</div>
 			</div>
 		</section>
